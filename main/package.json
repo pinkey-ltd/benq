@@ -1,6 +1,6 @@
 {
   "name": "main",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -32,9 +32,12 @@
     "@vue/tsconfig": "^0.5.1",
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
+    "naive-ui": "^2.38.2",
     "npm-run-all2": "^6.1.2",
     "prettier": "^3.0.3",
+    "sass": "^1.77.6",
     "typescript": "~5.4.0",
+    "vfonts": "^0.0.3",
     "vite": "^5.1.6",
     "vite-plugin-vue-devtools": "^7.0.18",
     "vue-tsc": "^2.0.6"

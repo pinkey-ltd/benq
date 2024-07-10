@@ -1,7 +1,10 @@
-import './assets/main.scss'
-
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+
+// 通用字体
+import 'vfonts/Lato.css'
+// 等宽字体
+import 'vfonts/FiraCode.css'
 
 import { registerMicroApps, start, initGlobalState, type MicroAppStateActions } from 'qiankun'
 import 'bulma/css/bulma.css'
