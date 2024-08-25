@@ -28,7 +28,7 @@ let port2 = node2.addOutPort('Out');
 
 // link them and add a label to the link
 const link = port1.link<DefaultLinkModel>(port2);
-link.addLabel('Hello World!');
+link.addLabel('2');
 
 const model = new DiagramModel();
 model.addAll(node1, node2, link);
