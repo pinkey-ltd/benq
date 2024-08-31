@@ -15,16 +15,17 @@ const node1 = new DefaultNodeModel({
   name: 'Node 1',
   color: 'rgb(0,192,255)',
 });
+
 node1.setPosition(100, 100);
 let port1 = node1.addOutPort('Out');
 
 // node 2
 const node2 = new DefaultNodeModel({
-  name: 'Node 1',
+  name: 'Node 2',
   color: 'rgb(0,192,255)',
 });
 node2.setPosition(200, 250);
-let port2 = node2.addOutPort('Out');
+let port2 = node2.addInPort('In');
 
 // link them and add a label to the link
 const link = port1.link<DefaultLinkModel>(port2);
